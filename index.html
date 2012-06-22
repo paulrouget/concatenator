@@ -35,6 +35,10 @@
       e.preventDefault();
       document.body.className = '';
       var files = e.dataTransfer.files;
+      if (files.length < 2) {
+        alert("drop at least 2 images");
+        return;
+      }
       // We should test if the files are images.
       // But I don't. I'm lazy.
       count = files.length;
