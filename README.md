@@ -1,7 +1,7 @@
 Concatenator
 ============
 
-Concatenator is a one-file HTML page that concatenate images into a single one.
+Concatenator is a one-file HTML app that concatenate images into a single image.
 
 ## License
 
