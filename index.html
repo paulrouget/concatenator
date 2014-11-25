@@ -91,7 +91,7 @@
     // Let's find the best way to get a light URL
     if ("toBlob" in canvas) {
       canvas.toBlob(function(blob) {
-        var url = window.URL.createObjectURL(file);
+        var url = window.URL.createObjectURL(blob);
         handleNewURL(url);
       });
       } else {
